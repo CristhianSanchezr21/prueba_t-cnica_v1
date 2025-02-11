@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_4iNwwN5TEe-JBeg9WNLTNA" name="Tickest_disponibilidad" dataPackage="_4iNwwd5TEe-JBeg9WNLTNA" Server="Localhost 127.0.0.1" FilePath="C:/Users/46139585/Documents/Proyectos/Centros Digitales/Talend/Descargas/Enero/Reporte Service Manager 2025_1 (1).csv" Encoding="UTF-8" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_4iNwwd5TEe-JBeg9WNLTNA" name="default" dataManager="_4iNwwN5TEe-JBeg9WNLTNA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_4iNwwt5TEe-JBeg9WNLTNA" id="_KMkIEN5TEe-JBeg9WNLTNA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNww95TEe-JBeg9WNLTNA" label="fecha_apertura" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwxN5TEe-JBeg9WNLTNA" label="numero_ticket" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwxd5TEe-JBeg9WNLTNA" label="canal_solicitud" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwxt5TEe-JBeg9WNLTNA" label="sem_id_beneficiario" length="100" precision="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwx95TEe-JBeg9WNLTNA" label="codigo_ticket_ccc" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwyN5TEe-JBeg9WNLTNA" label="departamento" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwyd5TEe-JBeg9WNLTNA" label="municipio" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwyt5TEe-JBeg9WNLTNA" label="centro_poblado" length="400" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwy95TEe-JBeg9WNLTNA" label="tipo_cd" length="400" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwzN5TEe-JBeg9WNLTNA" label="nombre_cd" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwzd5TEe-JBeg9WNLTNA" label="dda" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwzt5TEe-JBeg9WNLTNA" label="fase_instalacion" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNwz95TEe-JBeg9WNLTNA" label="bandera" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw0N5TEe-JBeg9WNLTNA" label="fecha_cierre" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw0d5TEe-JBeg9WNLTNA" label="prioridad" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw0t5TEe-JBeg9WNLTNA" label="responsabilidad_por_ticket" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw095TEe-JBeg9WNLTNA" label="descripcion_apertura_o_parada" length="2335" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw1N5TEe-JBeg9WNLTNA" label="motivo_parada" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw1d5TEe-JBeg9WNLTNA" label="tiempo_total_parada_reloj" length="100" precision="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw1t5TEe-JBeg9WNLTNA" label="tiempo_final_falla" length="100" precision="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw195TEe-JBeg9WNLTNA" label="tipo_solicitud" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw2N5TEe-JBeg9WNLTNA" label="categoria" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw2d5TEe-JBeg9WNLTNA" label="subcategoria" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw2t5TEe-JBeg9WNLTNA" label="energia" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw295TEe-JBeg9WNLTNA" label="tipificacion_falla" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw3N5TEe-JBeg9WNLTNA" label="acciones_correctivas" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw3d5TEe-JBeg9WNLTNA" label="estado" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw3t5TEe-JBeg9WNLTNA" label="dispositivo_afectado" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw395TEe-JBeg9WNLTNA" label="solucion" length="2350" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw4N5TEe-JBeg9WNLTNA" label="masivo" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4iNw4d5TEe-JBeg9WNLTNA" label="sem_cod_servicio" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

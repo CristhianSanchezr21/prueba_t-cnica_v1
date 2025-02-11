@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_50i_gOMuEe-Dx8IwNYj9dQ" name="Tbl_base_control_centos_digitales" dataPackage="_50i_geMuEe-Dx8IwNYj9dQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/46139585/Documents/Proyectos/Centros Digitales/Talend/Descargas/Febrero/Tbl_base_control_centos_digitales.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_50i_geMuEe-Dx8IwNYj9dQ" name="default" dataManager="_50i_gOMuEe-Dx8IwNYj9dQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_50i_guMuEe-Dx8IwNYj9dQ" id="_7gxtQOMtEe-Dx8IwNYj9dQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_g-MuEe-Dx8IwNYj9dQ" label="ID" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_hOMuEe-Dx8IwNYj9dQ" label="ID_MINTIC" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_heMuEe-Dx8IwNYj9dQ" label="DDA" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_huMuEe-Dx8IwNYj9dQ" label="GRUPO" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_h-MuEe-Dx8IwNYj9dQ" label="ENERGIA" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_iOMuEe-Dx8IwNYj9dQ" label="BW_DOWN_INCREMENTO_2024" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_ieMuEe-Dx8IwNYj9dQ" label="VEL_2029" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_iuMuEe-Dx8IwNYj9dQ" label="BW_UP_INCREMENTO_2024" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_i-MuEe-Dx8IwNYj9dQ" label="MATRICULA_OFICIAL_2024" length="300" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_jOMuEe-Dx8IwNYj9dQ" label="MATRICULA_2021" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_jeMuEe-Dx8IwNYj9dQ" label="RANGO_DE_VEL_POR_MATRICULA" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_juMuEe-Dx8IwNYj9dQ" label="TECNOLOGIA" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_j-MuEe-Dx8IwNYj9dQ" label="TIPO_DE_TECNOLOGIA_ACTUAL" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_kOMuEe-Dx8IwNYj9dQ" label="TIPO_TECNOLOGIA_INSTALADA" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_keMuEe-Dx8IwNYj9dQ" label="TECNOLOGIA_INTV" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_kuMuEe-Dx8IwNYj9dQ" label="FECHA_CAMBIO_DE_TECNOLOGIA" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_k-MuEe-Dx8IwNYj9dQ" label="DEPARTAMENTO" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_lOMuEe-Dx8IwNYj9dQ" label="MUNICIPIO" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_leMuEe-Dx8IwNYj9dQ" label="INSTITUCION_EDUCATIVA" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_luMuEe-Dx8IwNYj9dQ" label="NOMBRE_DE_LA_SEDE" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_l-MuEe-Dx8IwNYj9dQ" label="TIPO_SITIO" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_mOMuEe-Dx8IwNYj9dQ" label="GRUPODESC" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_meMuEe-Dx8IwNYj9dQ" label="OBSERVACIONES" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_muMuEe-Dx8IwNYj9dQ" label="REVISON_400" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_m-MuEe-Dx8IwNYj9dQ" label="REVISION_INTV_TECNOLOGIA" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_nOMuEe-Dx8IwNYj9dQ" label="RV" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_50i_neMuEe-Dx8IwNYj9dQ" label="PERIODO" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
